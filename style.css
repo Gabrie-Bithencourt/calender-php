@@ -1,0 +1,32 @@
+body{
+     margin: 0;
+     font-family: sans-serif;
+     font-size: 2rem;
+}
+
+header{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 100px;
+}
+
+
+table{
+     width: 100vw;
+     height: calc(100vh - 100px);
+     text-align: center;
+}
+
+table th{
+        padding-top: 20px;
+}
+
+table td{
+       font-size: 2em;
+}
+
+table td.other-month{
+        opacity: 0.5;
+}
+
